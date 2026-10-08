@@ -5,5 +5,19 @@ Les routes attendues sont (prefixe /api/ deja fourni par config/urls.py) :
   /api/reservations/      /api/reservations/{id}/
   /api/salles/{id}/occupation/
 """
-# TODO : votre code ici
-urlpatterns = []
+
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+
+from .views import SalleViewSet, ReservationViewSet
+
+
+router = DefaultRouter()
+router.register(r"salles", SalleViewSet)
+router.register(r"reservations", ReservationViewSet)
+
+
+urlpatterns = [
+    path("", include(router.urls)),
+]
+

@@ -2,12 +2,6 @@
 
 > **À compléter par votre groupe avant le dernier push.**
 
-## Groupe
-
-| Membre | Compte GitHub | Rôle / tâches principales |
-|--------|---------------|---------------------------|
-| ...    | ...           | ...                       |
-
 ## Installation
 
 ```bash
@@ -20,7 +14,7 @@ python manage.py runserver
 ```
 
 Comptes de test (mot de passe : `motdepasse123`) : `alice`, `bob`, `charlie`.
-Super-utilisateur : `admin` / `admin123`.
+Super-utilisateur : `abdoul` / `admin123`.
 
 ## Endpoints
 
@@ -29,7 +23,3 @@ Super-utilisateur : `admin` / `admin123`.
 | Route | Méthodes | Permissions |
 |-------|----------|-------------|
 | ...   | ...      | ...         |
-
-## Choix de conception et difficultés rencontrées
-
-> Quelques lignes : comment avez-vous défini le chevauchement ? Qu'est-ce qui vous a posé problème ?
